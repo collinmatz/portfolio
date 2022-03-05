@@ -46,7 +46,7 @@ export default function Body() {
         }
         else {
             const elem = document.getElementById(id);
-            elem.style.height = divMaxHeight;
+            elem.style.height = "2em";
             elem.style.opacity = 0;
             elem.style.pointerEvents = "none";
         }
