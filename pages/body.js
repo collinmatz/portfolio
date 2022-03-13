@@ -107,7 +107,7 @@ export default function Body() {
             <div id="projects">
                 <p>The source code for all my projects can be found on my GitHub. However, here are some highlighted projects for your consideration:</p>
                 <ul>
-                    <li>Coming soon!</li>
+                    <li><a href="Duck_Garden_Pre-Alpha.zip" download>Duck Garden (Pre-Alpha)</a></li>
                 </ul>
             </div>
 
