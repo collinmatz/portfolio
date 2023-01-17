@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 import styles from "../styles/index.module.css"
-import { NavbarItem } from './navbarItems';
+import { NavbarItem } from '../components/navbarItems';
 
 export default function Home() {
 
