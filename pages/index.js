@@ -40,16 +40,7 @@ export default function Home() {
       startClicked={false} content={projectsContent}/>,
     <NavbarItem key={2} name={"contact"} text={"Contact"} id="contact"
       startClicked={false} content={contactContent}/>,
-
   ];
-
-  useEffect(() => {
-    if (firstRender.current) {
-      document.title = "Collin Matz Portfolio";
-      fullName.current = fullNameWithoutSuffix.current + nameSuffixes[Math.floor(Math.random() * nameSuffixes.length)];
-      firstRender.current = false;
-    }
-  }, []);
 
   const nameSuffixes = [
     "software engineer.",
@@ -67,6 +58,14 @@ export default function Home() {
     "creator of duck garden.",
     "aspires to develop the AI singularity."
   ];
+
+  useEffect(() => {
+    if (firstRender.current) {
+      document.title = "Collin Matz Portfolio";
+      fullName.current = fullNameWithoutSuffix.current + nameSuffixes[Math.floor(Math.random() * nameSuffixes.length)];
+      firstRender.current = false;
+    }
+  }, []);
 
   const [nameComplete, setNameComplete] = useState(false);
   useEffect(() => {
