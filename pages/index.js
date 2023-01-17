@@ -65,7 +65,7 @@ export default function Home() {
       fullName.current = fullNameWithoutSuffix.current + nameSuffixes[Math.floor(Math.random() * nameSuffixes.length)];
       firstRender.current = false;
     }
-  }, []);
+  });
 
   const [nameComplete, setNameComplete] = useState(false);
   useEffect(() => {
