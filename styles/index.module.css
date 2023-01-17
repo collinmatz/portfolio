@@ -1,0 +1,86 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    justify-content: center;
+    display: flex;
+    
+    width: 100%;
+    height: 20%;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+    width: 100%;
+    height: 70%;
+    margin-top: 5%;
+}
+
+.body h1:hover {
+    color: #008DD5;
+    transition-duration: 0.15s;
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(1.3);
+}
+
+.clicked {
+    display: flex;
+    text-decoration: underline;
+    color: #008DD5;
+    transform: scale(1.1);
+    transition-duration: 0.20s;
+}
+
+.unclicked {
+    transition-duration: 0.15s;
+}
+
+.navbarItemCardArea {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.cardDiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 0%;
+    margin-top: -1.5%;
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+}
+
+.cardClicked {
+    opacity: 100%;
+    transition-duration: 2s;
+}
+
+.cardUnclicked {
+    transition-duration: 2s;
+}
+
+.body a {
+    color: #F44174;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
